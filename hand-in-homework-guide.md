@@ -2,7 +2,7 @@
 
 In this module you'll submit your homework only using GIT and GitHub.
 
-1. [GitHub](https://www.github.com/HackYourFuture/React)
+1. [GitHub](https://www.github.com/SocialHackersCodeSchool/React)
 
 ## 1. GitHub homework guide
 
@@ -29,6 +29,7 @@ EVERY WEEK
 ```markdown
 Homework week 1 <Your name>
 ```
+
 8. add the deployed url of the homework to the pull request description.
 9. Submit the pull request from your forked repository branch into the `master` branch
 10. Do a little victory dance because you did it! Good job!
