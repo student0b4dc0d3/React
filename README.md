@@ -1,6 +1,4 @@
-> If you are following the HackYourFuture curriculum we recommend you to start with module 1: [HTML/CSS/GIT](https://github.com/HackYourFuture/HTML-CSS). To get a complete overview of the HackYourFuture curriculum first, click [here](https://github.com/HackYourFuture/curriculum).
-
-> Please help us improve and share your feedback! If you find better tutorials or links, please share them by [opening a pull request](https://github.com/HackYourFuture/React/pulls).
+> If you are following the Social Hackers Academy curriculum we recommend you to start with module 1: [HTML/CSS/GIT](https://github.com/SocialHackersCodeSchool/HTML-CSS). To get a complete overview of the HackYourFuture curriculum first, click [here](https://github.com/SocialHackersCodeSchool/curriculum).
 
 # Module #7 - React.js: Building dynamic UIs with modern JavaScript (Frontend)
 
@@ -72,8 +70,9 @@ It should be at least version `2.1.x`.
 
 Did you finish the module? Impressive!
 
-If you feel ready for the **final** challenge, click [here](https://www.github.com/HackYourFuture/Project) to go to Project!
+If you feel ready for the **final** challenge, click [here](https://github.com/SocialHackersCodeSchool/Project) to go to Project!
 
-_The HackYourFuture curriculum is subject to CC BY copyright. This means you can freely use our materials, but just make sure to give us credit for it :)_
+## Credit:
+This curriculum is developed by HackYourFuture, modifications, and changes can be found in this Fork.
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
