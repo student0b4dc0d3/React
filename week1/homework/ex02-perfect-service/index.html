@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta charset="UTF-8" />
+        <title>React - week 1 - Exercise 2: Perfect customer service!</title>
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
+    </head>
+    <body>
+        <!-- We will put our React component inside this div. -->
+
+        <!-- <img src="./assets/f-delivery.png" alt="" /> -->
+
+        <div id="id_react_root">Building React component structure, hold on ...</div>
+
+        <!-- Load React. -->
+        <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+        <script src="https://unpkg.com/react@16/umd/react.development.js"
+                crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+                crossorigin></script>
+
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+        <!-- Load our React components. -->
+
+        <!--    since text/babel script inclusion throws CORB
+                include the script inside the HTML instead
+
+            <script type="text/babel" src="script.js"></script>
+        -->
+        <script type="text/babel">
+
+            const Guarantee=(props)=>{
+                return <li>
+                    <img src={props.data.image} alt="" />
+                    <br/> <br/> <h3>{props.data.title}</h3>
+                    <br/> <p>{props.data.description}</p>
+                </li>
+            };
+
+            class App extends React.Component {
+                state={services:[
+                    {   image:'./assets/f-delivery.png',    title:'Free shipping',
+                        description:'You buy, we deliver, when-ever, where-ever, how-ever, anywhere in the multiverse, 100% free!'},
+                    {   image:'./assets/coin.png',          title:'100% Money back',
+                        description:'You return, we refund, no questions axed, no shots given, 100% refund!'},
+                    {   image:'./assets/chat.png',          title:'Online support 24/7',
+                        description:'You connect, we support, 24/7 online support for all our customers, 100% royalty-free!'},
+                ]}
+                render() {return <ul>{this.state.services.map((data,indx)=><Guarantee key={indx} data={data} />)}</ul>}
+            }
+
+            ReactDOM.render(<App />, document.getElementById("id_react_root"));
+
+        </script>
+
+    </body>
+</html>
+
