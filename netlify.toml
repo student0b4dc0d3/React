@@ -1,6 +1,6 @@
 
 [build]
   command = "npm run build"
-  publish="./week1/homework/project-hack-your-weather-1/build"
-  base = "./week1/homework/project-hack-your-weather-1"
+  publish = "/build"
+  base    = "./week1/homework/project-hack-your-weather-1"
 
