@@ -7,7 +7,9 @@
 /coverage
 
 # production
-/build
+#
+# DOT.NOT: trying to NETIFY: do NOT ignore the /build
+# /build
 
 # misc
 .DS_Store
